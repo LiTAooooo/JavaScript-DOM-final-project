@@ -1,0 +1,41 @@
+header {
+	background: url(../images/guitarist.gif)
+				#334 no-repeat bottom right;
+}
+
+article a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+article a:link,
+article a:visited {
+	color: #445;
+	background-color: #eb6;
+}
+
+article a:hover {
+	color: #667;
+	background: #fb5;
+}
+
+article a:active {
+	color: #778;
+	background: #ec8;
+}
+
+#galleryWindow {
+	position: relative;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	border-radius: 25px;
+}
+
+#preview {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+

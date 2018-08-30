@@ -1,0 +1,29 @@
+h3 {
+	font: 1.4em "Georgia","Time New Roman",sans-serif;
+}
+
+header {
+	background: url(../images/lineup.gif)
+				#334 no-repeat bottom right;
+}
+
+article a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+article a:link,
+article a:visited {
+	color: #445;
+	background-color: #eb6;
+}
+
+article a:hover {
+	color: #667;
+	background: #fb5;
+}
+
+article a:active {
+	color: #778;
+	background: #ec8;
+}

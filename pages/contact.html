@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jay Skript and the Domsters</title>
+	<link rel="stylesheet" type="text/css" href="../styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="../styles/public.css">
+	<link rel="stylesheet" type="text/css" href="../styles/contact.css">
+</head>
+<body>
+	<header>
+		<img src="../images/logo.gif" alt="Jay Skript and the Domsters">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="live.html">Live</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h2>Contact the band</h2>
+		<form method="post" action="submit.html">
+			<p>
+				<label for="name">Name:</label>
+				<input type="text" name="usr-name" id="name" placeholder="Your name" autofocus required>
+			</p>
+			<p>
+				<label for="email">Email:</label>
+				<input type="email" name="usr-email" id="email" placeholder="Your email address" required>
+			</p>
+			<p>
+				<label for="message">Message:</label>
+				<textarea id="message" name="usr-message" placeholder="Write your message here" required cols="45" rows="7"></textarea>
+			</p>
+			<button type="submit">Send</button>
+		</form>
+	</article>
+	<script type="text/javascript" src="../scripts/public.min.js"></script>
+	<script type="text/javascript" src="../scripts/contact.min.js"></script>
+</body>
+</html>

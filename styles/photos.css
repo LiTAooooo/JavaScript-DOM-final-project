@@ -1,0 +1,24 @@
+header {
+	background: url(../images/basshead.gif)
+				#334 no-repeat bottom right;
+}
+
+#intro ul li {
+	display: inline-block;
+}
+
+#intro ul {
+	margin-top: 1.6em;
+}
+
+#intro ul img {
+	cursor: pointer;
+}
+
+#placeholder {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	border: 1px solid #ba9;
+	background: url(../images/placeholder.gif);
+}

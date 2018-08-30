@@ -1,0 +1,14 @@
+header {
+	background: url(../images/drummer.gif)
+				#334 no-repeat bottom right;
+}
+
+
+input {
+	display: block;
+}
+
+textarea {
+	display: block;
+	resize: horizontal;
+}

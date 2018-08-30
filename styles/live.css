@@ -1,0 +1,49 @@
+header {
+	background: url(../images/bassist.gif)
+				#334 no-repeat bottom right;
+}
+
+#intro table {
+	margin-top: 1em;
+	font-size: .8em;
+}
+
+#intro table th {
+	color: #edc;
+	background-color: #455;
+}
+
+#intro table td {
+	color: #223;
+	padding: .5em 3em;
+}
+
+#intro table tr:hover {
+	background-color: #cba;
+}
+
+.odd {
+	background-color: #ec8;
+}
+
+.even {
+	background-color: #eb6;
+}
+
+h3 {
+	font: 1.1em "Georgia","Time New Roman",sans-serif;
+}
+
+dl {
+	margin: 0;
+	font-size: .8em;
+}
+
+dt,
+dd {
+	display: inline-block;
+}
+
+dd {
+	margin: 0 3em 0 1em;
+}
